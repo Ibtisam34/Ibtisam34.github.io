@@ -357,15 +357,14 @@ hr {
 #framework {
   gap: 20px;
 }
-
-.skil-lList {
-  list-style: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  align-self: flex-start;
-  margin-bottom: 10px;
-}
-
+    .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:0;
+    gap: 24px;
+    width: 100%;
+  }
 .skill-List li {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -629,7 +628,15 @@ textarea {
     flex-direction: row;
     justify-content: space-around;
   }
-
+  .skill-List {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    
+  }
+  
   .touch {
     flex-direction: row;
   }
